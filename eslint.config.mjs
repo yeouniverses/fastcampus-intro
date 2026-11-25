@@ -20,7 +20,7 @@ const eslintConfig = defineConfig([
     },
   },
   // 검사하지 않을 폴더 (빌드 결과물 등)
-  globalIgnores([".next/**", "out/**", "build/**", "next-env.d.ts"]),
+  globalIgnores([".next/**", "out/**", "build/**", "next-env.d.ts", "generated/**"]),
 ]);
 
 export default eslintConfig;
